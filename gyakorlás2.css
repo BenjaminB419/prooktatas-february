@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+.background-image {
+    background-image: url('./Tropical-beach-Punta-Cana-Dominica-Dominican-Republic-palm-trees-ocean-waves-gold-sunset.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.left-section {
+display: flex;
+align-items: center;
+}
+.website-logo {
+height: 50px;
+margin-left: 40px;
+}
+.right-section {
+width: 180px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+margin-top: 10px;
+}
+.hamburger-menu {
+height: 18px;
+margin-right: 200px;
+}
+.icons {
+font-size: 18px;
+color: white;
+margin-right: 40px;
+}
+
+.middle-section {
+   display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.title {
+    font-size: 75px;
+    color: white;
+    font-weight: bold;
+}
+.title2 {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.See-Trips-button {
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 8px 23px 8px 23px;
+    cursor: pointer;
+    font-size: 12px;
+}
